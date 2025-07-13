@@ -1,0 +1,55 @@
+
+Prompt: def chatbot():
+Response: def chatbot():
+   while True:
+     user_input = input("You: ")
+     if user_input == "hello":
+       print("ChatBot: Hello! How can I assist you today?")
+     elif user_input == "goodbye":
+       print("ChatBot: Goodbye! It was nice chatting with you.")
+       break
+     else:
+       print("ChatBot: I don't understand what you mean. Can you explain your question in more detail?")
+   return
+--------------------------------------------------
+Prompt: def binary_search():
+Response: ```
+def binary_search(arr, x):
+    low = 0
+    high = len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == x:
+            return mid
+        elif arr[mid] < x:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+```
+--------------------------------------------------
+Prompt: def chatbot_response(user_input):
+Response: `def chatbot_response(user_input):`
+
+`    return "I'm just an AI, I don't have access to any personal information. I can only provide general information and assistance on a limited scope of topics."`
+--------------------------------------------------
+Prompt: def factorial_find(int n):
+Response: ```
+def factorial_find(n):
+    result = 1
+    for i in range(2, n+1):
+        result *= i
+    return result
+```
+--------------------------------------------------
+Prompt: give a template code for a simple text chatbot 
+Response: const bot = () => {
+ console.log("Welcome to our text chatbot! How can I assist you today?");
+}
+--------------------------------------------------
+Prompt: def finding_largest_element_in_a_list
+Response: ```
+def largest_element(my_list):
+    return max(my_list)
+```
+--------------------------------------------------
